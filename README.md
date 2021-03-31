@@ -57,6 +57,11 @@
 
 There are millions of cases of Malaria being reported in many third-world countries. According to the CDC(Center of Disease Control), malaria symptoms begin about 10 days to 4 weeks after the infection, but it could also show as early as 7 days or as late as 1 year later. Using the images of blood cells, I want to detect the presence of malaria parasites using random forest and convolutional neural networks.
 
+### Built With
+
+* [Python](https://www.python.org/)
+* [TensorFlow 2.3.0](https://www.tensorflow.org/)
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
