@@ -79,7 +79,7 @@ Shown below are some pictures of the cells that are healthy or parasitized:
 
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
-    <img src="images/" alt="Logo" width="720" height="405">
+    <img src="images/flowchart.png" alt="Logo" width="360" height="200">
   </a>
 </p>
 
