@@ -101,16 +101,15 @@ Keras provides a technique called ImageDataGenerator for data augmentation. This
 
 ## Network Architecture
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+coming
 
 ## Results
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+sooon
 
 ## Summary
 
-Hello
-
+wooohooo
 ## Contact 
 
 PLz
