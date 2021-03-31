@@ -39,7 +39,7 @@
     <li><a href="#data-augmentation">Data Augmentation</a></li>
     <li><a href="#network-architecture">Network Architecture</a></li>
     <li><a href="#results">Results</a></li>
-    <li><a href="#conlusion">Conclusion</a></li>
+    <li><a href="#summary">Summary</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -91,14 +91,13 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
-## Conclusion
+## Summary
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+Hello
 
 ## Contact 
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
+PLz
 
 
 
