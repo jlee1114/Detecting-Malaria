@@ -50,7 +50,7 @@
 
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
-    <img src="images/MalariaEndemicity_2020.jpg" alt="Logo" width="900" height="480">
+    <img src="images/MalariaEndemicity_2020.jpg" alt="Logo" width="720" height="405">
   </a>
 </p>
 
