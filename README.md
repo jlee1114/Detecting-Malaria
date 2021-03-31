@@ -61,6 +61,7 @@ There are millions of cases of Malaria being reported in many third-world countr
 
 * [Python](https://www.python.org/)
 * [TensorFlow 2.3.0](https://www.tensorflow.org/)
+* [Keras](https://keras.io/)
 
 
 ## Dataset 
@@ -90,7 +91,13 @@ These images need to be processed in order for the algorithm. Here are the steps
 
 ## Data Augmentation
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+Keras provides a technique called ImageDataGenerator for data augmentation. This replaces the original batch of data with a new randomly tranformed batches of images. In this case, I rescaled the data by 1/255 with 20% of the data as the validation set to test on. Here is an example of how this technique works:
+
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/keras_data_augmentation_header.png" alt="Logo" width="405" height="405">
+  </a>
+</p>
 
 ## Network Architecture
 
