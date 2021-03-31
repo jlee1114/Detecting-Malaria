@@ -77,11 +77,16 @@ Shown below are some pictures of the cells that are healthy or parasitized:
 
 ## Image Processing
 
-<p align="center">
-  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
-    <img src="images/flowchart.png" alt="Logo" width="360" height="200">
-  </a>
-</p>
+These images need to be processed in order for the algorithm. Here are the steps that I have taken to process these images:
+
+1. *Original Image(Input)*
+2. Image Contouring
+3. Image Cropping
+4. Image Resizing
+5. Image Normalization
+6. **Processed Image(Output)**
+
+
 
 ## Data Augmentation
 
