@@ -39,7 +39,7 @@
     <li><a href="#data-augmentation">Data Augmentation</a></li>
     <li><a href="#network-architecture">Network Architecture</a></li>
     <li><a href="#results">Results</a></li>
-    <li><a href="#conlusion">Conclusions and Challenges</a></li>
+    <li><a href="#conlusion">Conclusion</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -74,6 +74,32 @@ Shown below are some pictures of the cells that are healthy or parasitized:
     <img src="images/comparison.PNG" alt="Logo" width="405" height="405">
   </a>
 </p>
+
+## Image Processing
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+## Data Augmentation
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+## Network Architecture
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+## Results
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+## Conclusion
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+## Contact 
+
+See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
