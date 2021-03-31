@@ -77,7 +77,11 @@ Shown below are some pictures of the cells that are healthy or parasitized:
 
 ## Image Processing
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/Flowchart.png" alt="Logo" width="720" height="405">
+  </a>
+</p>
 
 ## Data Augmentation
 
