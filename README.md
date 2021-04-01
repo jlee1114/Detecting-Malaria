@@ -111,12 +111,14 @@ Although I am confident that convolutional neural networks will outperform this 
 
 I will first resize the pictures to 50 x 50 along with adding greyscale. Below are the outputs of some images after applying these parameters. Here is what it looks like:
 
+**Parasitized**
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
     <img src="images/infected_grey.png" alt="Logo" width="500" height="150">
   </a>
 </p>
 
+**Healthy**
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
     <img src="images/healthy_grey.png" alt="Logo" width="500" height="150">
