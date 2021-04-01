@@ -41,9 +41,6 @@
         <li><a href="#feature-engineering">Feature Engineering</a></li>
       </ul>
       <ul>
-        <li><a href="#extracting-distribution-of-colours">Extracting Distributions of Colour</a></li>
-      </ul>
-      <ul>
         <li><a href="#processing">Processing the Dataset</a></li>
       </ul>
       <ul>
@@ -103,6 +100,29 @@ Shown below are some pictures of the cells that are healthy or parasitized:
     <img src="images/comparison.PNG" alt="Logo" width="405" height="405">
   </a>
 </p>
+
+
+
+## Support Vector Machine
+
+Although I am confident that convolutional neural networks will outperform this modoel, this will work out well because cnn automatically extracts features and performs a lot of the work under the hood, I want to see if I could build a lighter model that can classify malaria. Also, we do not need the shape or location of the stains(parasite) because it is not needed. 
+
+### Feature Engineering
+
+I will first resize the pictures to 50 x 50 along with adding greyscale. Below are the outputs of some images after applying these parameters. Here is what it looks like:
+
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/infected_grey.png" alt="Logo" width="300" height="100">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/healthy_grey.png" alt="Logo" width="300" height="100">
+  </a>
+</p>
+
 
 ## Image Processing
 
