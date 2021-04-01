@@ -35,9 +35,32 @@
     <li>
       <a href="#dataset">Dataset</a>
     </li>
-    <li><a href="#image-processing">Image Processing</a></li>
-    <li><a href="#data-augmentation">Data Augmentation</a></li>
-    <li><a href="#network-architecture">Network Architecture</a></li>
+    <li>
+      <a href="support-vector-machines">Support Vector Machines</a>
+      <ul>
+        <li><a href="#feature-engineering">Feature Engineering</a></li>
+      </ul>
+      <ul>
+        <li><a href="#extracting-distribution-of-colours">Extracting Distributions of Colour</a></li>
+      </ul>
+      <ul>
+        <li><a href="#processing">Processing the Dataset</a></li>
+      </ul>
+      <ul>
+        <li><a href="#hypertuning">Hypterparameter Tuning the SVM Model</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="convolutional-neural-network">Convolutional Neural Network</a>
+      <ul>
+        <li><a href="#image-processing">Image Processing</a></li>
+      </ul>
+      <ul>
+        <li><a href="#data-augmentation">Data Augmentation</a></li>
+      </ul>
+      <ul>
+        <li><a href="#network-architecture">Network Architecture</a></li>
+      </ul>
     <li><a href="#results">Results</a></li>
     <li><a href="#summary">Summary</a></li>
     <li><a href="#contact">Contact</a></li>
