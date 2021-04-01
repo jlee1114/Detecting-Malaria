@@ -52,7 +52,7 @@ Malaria is an infectious disease that are mosquito-borne caused by *Plasmodoium*
 
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
-    <img src="images/MalariaEndemicity_2020.jpg" alt="Logo" width="720" height="405">
+    <img src="images/malaria2_malaria-heat-map.png" alt="Logo" width="720" height="405">
   </a>
 </p>
 
