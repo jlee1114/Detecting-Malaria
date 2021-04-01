@@ -113,13 +113,13 @@ I will first resize the pictures to 50 x 50 along with adding greyscale. Below a
 
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
-    <img src="images/infected_grey.png" alt="Logo" width="300" height="100">
+    <img src="images/infected_grey.png" alt="Logo" width="500" height="150">
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
-    <img src="images/healthy_grey.png" alt="Logo" width="300" height="100">
+    <img src="images/healthy_grey.png" alt="Logo" width="500" height="150">
   </a>
 </p>
 
