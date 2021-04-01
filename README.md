@@ -112,8 +112,7 @@ sooon
 wooohooo
 ## Contact 
 
-PLz
-
+Justin (Jin Wook) Lee  - justinjwlee1114@gmail.com
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
