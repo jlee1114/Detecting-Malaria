@@ -122,7 +122,7 @@ I will first resize the pictures to 50 x 50 along with adding greyscale. Below a
   </a>
 </p>
 
-After resizing and greyscaling these images, we want to extract our *features* which is going to the distributions of colours. Since the pictures of the cells clearly shows where there are parasites present it will capture this pretty well. I will bin the colours from the range of 0 to 1 into 1 bins. The number zero being black and one being white. Then I normalized the values by dividing the count of the bin by the sum of the counts. 
+After resizing and greyscaling these images, we want to extract our *features* which is going to the distributions of colours. Since the pictures of the cells clearly shows where there are parasites present it will capture this pretty well. I will bin the colours from the range of 0 to 1 into 10 bins. The number zero being black and one being white. Then I normalized the values by dividing the count of the bin by the sum of the counts. 
 
 Lets see how these normalized colour histogram data looks like. Since there are 10-dimensional vectors, we cannot see the whole thing, but I have included the 2D and 3D scatter plot only using the second and third components.
 
