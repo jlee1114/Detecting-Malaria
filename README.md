@@ -194,7 +194,9 @@ coming
 
 ## Results
 
-sooon
+### SVM Results
+
+We started by resizing and grey-scaling the images then created our ten bins. I chose to use a RBF kernel in the SVM model with 7 principal components. After grid searching with cross validation, we found the best value for the gamma and cost. The fully trained model ahieved an accuracy of 84.9% with a precision score of 85.9%. 
 
 ## Summary
 
