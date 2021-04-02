@@ -36,7 +36,7 @@
       <a href="#dataset">Dataset</a>
     </li>
     <li>
-      <a href="support-vector-machine">Support Vector Machine</a>
+      <a href="#support-vector-machine">Support Vector Machine</a>
       <ul>
         <li><a href="#feature-engineering">Feature Engineering</a></li>
       </ul>
@@ -45,7 +45,7 @@
       </ul>
     </li>
     <li>
-      <a href="convolutional-neural-network">Convolutional Neural Network</a>
+      <a href="#convolutional-neural-network">Convolutional Neural Network</a>
       <ul>
         <li><a href="#image-processing">Image Processing</a></li>
       </ul>
