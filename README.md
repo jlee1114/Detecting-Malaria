@@ -168,6 +168,13 @@ The best parameters were with the cost value at 100 and gamma at 0.1. This model
 
 ## Convolutional Neural Network
 
+The datatset will be split into train/validation/test with a 0.8/0.1/0.1 split. This picture here describes the structure of my data. 
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/dir_str_for_flow_from_dir.jpeg" alt="Logo" width="800" height="350">
+  </a>
+</p>
+
 ### Image Processing
 
 These images need to be processed in order for the algorithm. Here are the steps that I have taken to process these images:
@@ -226,12 +233,15 @@ I also added an early stop with a monitor for the validation loss to stop the ep
   </a>
 </p>
 
+Now we can test this model on our test set to see how it will perform against unseen data. 
 
 ## Results
 
 ### SVM Results
 
 We started by resizing and grey-scaling the images then created our ten bins. I chose to use a RBF kernel in the SVM model with 7 principal components. After grid searching with cross validation, we found the best value for the gamma and cost. The fully trained model ahieved an accuracy of 84.9% with a precision score of 85.9%. 
+
+### CNN Results 
 
 
 ## Summary
