@@ -55,7 +55,15 @@
       <ul>
         <li><a href="#network-architecture">Network Architecture</a></li>
       </ul>
-    <li><a href="#results">Results</a></li>
+    <li>
+      <a href="#results">Results</a>
+      <ul>
+        <li><a href="svm-results">SVM Results</a></li>
+      </ul>
+      <ul>
+        <li><a hred="cnn-results">CNN Results</a></li>
+      </ul>
+    </li>
     <li><a href="#summary">Summary</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
