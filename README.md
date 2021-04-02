@@ -73,7 +73,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Malaria is an infectious disease that are mosquito-borne caused by *Plasmodoium* parasites. There are millions of cases of malaria being reported in many third-world countries. The map below is a heat map of malaria presence in the world thanks to [treated.com](https://www.treated.com/malaria/world-map-risk)(The data is sourced from CDC). We can see that there are a concentration of the disease around tropical regions.
+Malaria is an infectious disease that are mosquito-borne caused by *Plasmodium* parasites. There are millions of cases of malaria being reported in many third-world countries. The map below is a heat map of malaria presence in the world thanks to [treated.com](https://www.treated.com/malaria/world-map-risk)(The data is sourced from CDC). We can see that there are a concentration of the disease around tropical regions.
 
 <p align="center">
   <a href="https://github.com/justinrhee1114/Detecting-Malaria">
