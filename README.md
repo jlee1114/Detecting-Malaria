@@ -243,6 +243,8 @@ We started by resizing and grey-scaling the images then created our ten bins. I 
 
 ### CNN Results 
 
+After training our initial model, I evaluated the model on the test set. This performed with an accuracy of 94.8% with a precision score of 95%. 
+
 
 ## Summary
 
