@@ -215,6 +215,14 @@ The sequential model's structure is as followed:
 | Dropout      | (None, 64)         | 0          |
 | Dense        | (None, 1)          | 65         |
 
+
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/cnn.png" alt="Logo" width="700" height="300">
+  </a>
+</p>
+
+
 There were a total of 406,625 parameters(all trainable and zero non-trainable).
 
 As for the optimizer, after trying out stochastic gradient descent(SGD) and adam with its default learning rate(0.001) and 0.0005, the default adam optimizer performed the best. 
@@ -242,8 +250,6 @@ Now we can test this model on our test set to see how it will perform against un
 We started by resizing and grey-scaling the images then created our ten bins. I chose to use a RBF kernel in the SVM model with 7 principal components. After grid searching with cross validation, we found the best value for the gamma and cost. The fully trained model ahieved an accuracy of 84.9% with a precision score of 85.9%. 
 
 ### CNN Results 
-
-After training our initial model, I evaluated the model on the test set. This performed with an accuracy of 94.8% with a precision score of 95%. 
 
 
 ## Summary
