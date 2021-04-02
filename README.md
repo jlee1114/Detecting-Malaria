@@ -36,7 +36,7 @@
       <a href="#dataset">Dataset</a>
     </li>
     <li>
-      <a href="support-vector-machines">Support Vector Machines</a>
+      <a href="support-vector-machine">Support Vector Machine</a>
       <ul>
         <li><a href="#feature-engineering">Feature Engineering</a></li>
       </ul>
@@ -164,7 +164,9 @@ To find the best number of components to use, I want it to explain at least 95% 
 The grid search will use a limit of 7 principal components to find the best gamma and c value. I will be using a range of (0.1,1,10,100) for both gamma and c. 
 The best parameters were with the cost value at 100 and gamma at 0.1. This model scored a 83.9% highest mean accuracy. We can now train our model with these hyperparameters with the RBF kernel on the training set and evaluate it on the test set for the final result.
 
-## Convolutional Nerual Network
+
+
+## Convolutional Neural Network
 
 ### Image Processing
 
