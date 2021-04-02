@@ -138,7 +138,23 @@ Lets see how these normalized colour histogram data looks like. Since there are 
   </a>
 </p>
 
+From this information we can see that we will need to use a non-linear classifier and after some research, it seems that the Radial Basis Function(RBF) kernel will work best because we can tune the gamma and cost(C). More information can be found here on [sckit-learn](https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html).
+
 ### Hyperparameter Tuning the SVM Model
+
+Now that we know which kernel to use, we can use a grid search to fit multiple models on our training set to find the best value for the gamma and cost. I will be using cross validation and before that I will preprocess the training data to standardize it and tranform it according to its principal components.
+
+To find the best number of components to use, I want it to explain at least 95% of the variance. Here is a graph of the culmulative explained variance against the number of principal components. From the graph below we can see that using the 7th principal component will do just fine.
+
+
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/pca.png" alt="Logo" width="500" height="500">
+  </a>
+</p>
+
+The grid search will use a limit of 7 principal components to find the best gamma and c value. I will be using a range of (0.1,1,10,100) for both gamma and c. 
+The best parameters were with the cost value at 100 and gamma at 0.1. This model scored a 83.9% highest mean accuracy. We can now train our model with these hyperparameters with the RBF kernel on the training set and evaluate it on the test set for the final result.
 
 
 ## Image Processing
