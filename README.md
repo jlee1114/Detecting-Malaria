@@ -193,13 +193,46 @@ Keras provides a technique called ImageDataGenerator for data augmentation. This
 
 ### Network Architecture
 
-coming
+The sequential model's structure is as followed: 
+
+| Layer        | Output Shape       | Parameters |
+|--------------|--------------------|------------|
+| Conv2D       | (None, 62, 62, 16) | 448        |
+| MaxPooling2D | (None, 31, 31, 16) | 0          |
+| Dropout      | (None, 31, 31, 16) | 0          |
+| Conv2D       | (None, 29, 29, 32) | 4,640      |
+| MaxPooling2D | (None, 14, 14, 32) | 0          |
+| Dropout      | (None, 14, 14, 32) | 0          |
+| Flatten      | (None, 6272)       | 0          |
+| Dense        | (None, 64)         | 401,472    |
+| Dropout      | (None, 64)         | 0          |
+| Dense        | (None, 1)          | 65         |
+
+There were a total of 406,625 parameters(all trainable and zero non-trainable).
+
+As for the optimizer, after trying out stochastic gradient descent(SGD) and adam with its default learning rate(0.001) and 0.0005, the default adam optimizer performed the best. 
+
+I also added an early stop with a monitor for the validation loss to stop the epochs when needed. The model stopped at 9 epochs giving us a 95.4% accuracy with a 94.6% validation accuracy and 15% loss with 17.7% validation loss. 
+
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/cnnacc.png" alt="Logo" width="500" height="350">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/justinrhee1114/Detecting-Malaria">
+    <img src="images/cnn loss.png" alt="Logo" width="500" height="350">
+  </a>
+</p>
+
 
 ## Results
 
 ### SVM Results
 
 We started by resizing and grey-scaling the images then created our ten bins. I chose to use a RBF kernel in the SVM model with 7 principal components. After grid searching with cross validation, we found the best value for the gamma and cost. The fully trained model ahieved an accuracy of 84.9% with a precision score of 85.9%. 
+
 
 ## Summary
 
