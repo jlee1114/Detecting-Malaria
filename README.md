@@ -251,10 +251,19 @@ We started by resizing and grey-scaling the images then created our ten bins. I 
 
 ### CNN Results 
 
+The CNN model, when evaluated on the test set had these scores; accuracy of 94.74%, precision of 95%, specificity of 93.88, sensitivity of 95.64. 
 
 ## Summary
+Here is a table of the scores I have achieved. Overall, I'd say that the scores performed well enought. However, it is important to note that since this is a natural science related testing, it is good to aim for the highest accuracy. Future works could include using a transfer learning model such as resNET, mobileNET, etc... I could also try to productionize the code to make it applicable for medical use or even making a web app. 
 
-wooohooo
+|             	| SVM   	| CNN    	|
+|-------------	|-------	|--------	|
+| Precision   	| 85.9% 	| 95%    	|
+| Specificity 	| 85.6% 	| 93.88% 	|
+| Sensitivity 	| 84.2% 	| 95.64% 	|
+
+Thank you for the read! 
+
 ## Contact 
 
 Justin (Jin Wook) Lee  - justinjwlee1114@gmail.com
