@@ -61,7 +61,7 @@
         <li><a href="#svm-results">SVM Results</a></li>
       </ul>
       <ul>
-        <li><a hred="#cnn-results">CNN Results</a></li>
+        <li><a href="#cnn-results">CNN Results</a></li>
       </ul>
     </li>
     <li><a href="#summary">Summary</a></li>
